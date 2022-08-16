@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+/* css texts */
+body{
+	/*font-family: 'Poppins', sans-serif;*/
+	font-size: 0.9rem;
+	color: #6A6A6A;
+}
+p{
+	margin-top: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	color: #2C2626;
+}
+.Logo{
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.3rem;
+}
+.lh-0{
+	line-height: 0px;
+}
+.lh-30{
+	line-height: 30px;
+}
+
+.font-red{
+	color: #E4242D;
+}
+/*end css texts*/
+
+/*navbar*/
+.navbar{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 2;
+}
+.flex-center{
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 10px;
+	align-items: center;
+}
+.nav-center{
+	justify-content: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.navbar-whatsapp{
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+}
+/*endnavbar*/
+
+/* css button */
+
+.bt-whatsapp{
+	background-color: #25D366;
+	border-radius: 20px;
+	color: #FFFFFF;
+	padding: 5px 20px 5px 20px;
+	text-decoration: none;
+}
+.bt-whatsapp:hover{
+	color: #FFFFFF;
+	background-color: #1BAC52;
+}
+
+.bt-red{
+	background-color: #E4242D;
+	color: #FFFFFF;
+	font-family: 'Poppins', sans-serif;
+	padding: 5px 10px 5px 10px;
+}
+.bt-red:hover{
+	color: #FFFFFF;
+	background-color: #D10F18;
+}
+
+.bt-red-outline{
+	background-color: #FFFFF;
+	border-color: #D10F18;
+	color: #E4242D;
+	font-family: 'Poppins', sans-serif;
+	padding: 5px 10px 5px 10px;
+}
+.bt-red-outline:hover{
+	color: #FFFFFF;
+	background-color: #D10F18;
+}
+
+/*end button*/
+
+.mcenter{
+	margin-top: 7vw;
+}
+.mtop-20{
+	margin-top: 100px;
+}
+
+/* css images */
+.head-images{
+	margin-top: 3vw;
+	max-width: 700px;
+}
+.head-images img{
+	width: 100%;
+}
+
+.m-center{
+	max-width: 800px;
+	text-align: center;
+	word-spacing: 3px;
+	line-height: 30px;
+	margin: 10px auto;
+	margin-top: 10vw;
+}
+
+.jumbo-me{
+	/*background-color: #FEC3A8;*/
+	margin-top: 10vw;
+	padding-top: 5vw;
+}
+/*box-deg90*/
+.box-deg90{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 700px;
+	background-color: #FFFFFF;
+	padding: 0;
+	line-height: 30px;
+	margin:  5px;
+	margin-bottom: 	30px;
+	/*box-shadow: 0px 1px 10px #C5BDBD;*/
+}
+.image-deg90{
+	width: 100vw;
+	height: 200px;
+	background-size: cover;
+	box-sizing: border-box;
+	padding: 0;
+}
+.image-deg90 img{
+	width: 100%;
+	height: 100%;
+}
+.body-deg90{
+	padding: 20px;
+}
+/*box*/
+	.box{
+		max-width: 410px;
+		background-color: #FFFFFF;
+		padding: 0;
+		line-height: 30px;
+		text-align: center;
+		margin: 5px;
+		margin-bottom: 20px;
+		/*box-shadow: 0px 1px 10px #C5BDBD;*/
+	}
+	.box:hover{
+		max-width: 450px;
+	}
+	.box img{
+		width: 100%;
+		overflow: hidden;
+		margin-bottom: 15px;
+	}
+	.body-box{
+		padding: 12px;
+	}
+
+.scroll-item{
+	flex-wrap: nowrap;
+    display: flex;
+    overflow: auto;
+    align-items: baseline;
+}
+
+.flow-between{
+	display: flex;
+	justify-content: space-between;
+	justify-items: center;
+	flex-wrap: nowrap;
+	margin-top: 2vw;
+}
+
+
+/*jumbo-head*/
+.head-jumbo{
+	color: #FFFFFF;
+	width: 100vw;
+	height: 50vh;
+	background-image: url(../Images/ALL/red.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 10vh; 
+}
+.center-jumbo{
+	max-width: 80vw;
+	margin:  10px auto;
+	text-align: center;
+	/*position: relative;*/
+	padding-top: 30vh;
+}
+.text-jumbo{
+	max-width: 95vw;
+	margin:  10px auto;
+}
+
+/*jumbo-head*/
+.head-jumbo-profile{
+	color: #FFFFFF;
+	width: 98.7vw;
+	height: 50vh;
+	background-image: url(../Images/ALL/profile.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 10vh; 
+}
+.center-jumbo-profile{
+	max-width: 80vw;
+	margin:  10px auto;
+	text-align: center;
+	/*position: relative;*/
+	padding-top: 10vh;
+}
+.headline-jumbo-profile{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.headline-jumbo-profile h1{
+	font-size: 42px;
+}
+.headline-jumbo-profile img{
+	width: 50%;
+}
+
+/*profile*/
+.profile-center{
+	max-width: 70vw;
+	margin: 10px auto;
+	position: static;
+	left: 30%;
+}
+
+/*accordion*/
+
+.accordion{
+	z-index: 1;
+	background-color: #FFFFFF;
+}
+.accordion-item{
+	border: none;
+	outline: none;
+	box-shadow: 0px 1px 10px #C5BDBD;
+}
+.accordion-body{
+	background-color: #FBFBFB;
+}
+
+.navbar-toggler{
+	border: none;
+	background-color: #FFFFFF;
+	box-shadow: 0px 1px 5px #C5BDBD;
+	border-radius: 20px;
+	padding: 10px;
+}
+@media screen and (min-width: 768px){
+	/*tombol*/
+	.bt-red-outline{
+	padding: 10px 40px 10px 40px;
+	}
+	.bt-red{
+	padding: 10px 40px 10px 40px;
+	}
+	.mtop-20{
+	margin-top: 10vw;
+	}
+	.text-jumbo{
+	max-width: 50vw;
+	margin:  10px auto;
+	}
+	.box-deg90{
+	display: flex;
+	flex-wrap: nowrap;
+	}
+	.image-deg90{
+	max-width: 300px;
+	height: 320px;
+	}
+	.image-deg90 img{
+		width: 100%;
+		height: 100%;
+	}
+	.headline-jumbo-profile h1{
+	font-size: 100px;
+	}
+	.headline-jumbo-profile img{
+		width: 20%;
+	}
+	
+
+}
+
+@media screen and (min-width: 1024px){
+	/*tombol*/
+	/*.bt-red-outline{
+	padding: 5px 20px 5px 20px;
+	}
+	.bt-red{
+	padding: 5px 20px 5px 20px;
+	}*/
+	.mtop-20{
+	margin-top: 5vw;
+	}
+
+	/*navbar*/
+	.navbar-whatsapp{
+	position: static;
+	}
+	/*end navbare*/
+	}
+	.head-jumbo{
+		width: 98.7vw;
+		height: 100vh;
+	}
+	
+
+}
